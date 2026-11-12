@@ -171,8 +171,8 @@ npx playwright install chromium
 ## 6. 测试
 
 ```bash
-npm test          # 逻辑层 + 数据层（零依赖，62 项中含 45 项逻辑/数据用例）
-npm run test:e2e  # 浏览器端验收（需要 Playwright + Chromium）
+npm test          # 逻辑层 + 数据层，45 项，零依赖
+npm run test:e2e  # 浏览器端验收，17 项（需要 Playwright + Chromium）
 npm run test:all  # 全部 62 项
 ```
 
